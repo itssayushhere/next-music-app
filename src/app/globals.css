@@ -25,3 +25,22 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.hidden-scrollbar::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+  height: 4px; /* Height of the horizontal scrollbar */
+}
+
+.hidden-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #262252; /* Color of the scrollbar thumb */
+  border-radius: 14px;
+}
+
+.hidden-scrollbar::-webkit-scrollbar-track {
+  background-color: #000000; 
+}
+
+.hidden-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #a5a1a1; /* Color of the scrollbar thumb on hover */
+}
