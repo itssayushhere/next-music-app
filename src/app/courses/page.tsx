@@ -2,17 +2,20 @@
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
+import React from "react";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 import courseData from "@/data/music_courses.json"
 const Courses = () => {
   return (
-    <div className=" min-h-screen bg-black py-12 pt-36">
+    <AuroraBackground className="h-full">
+    <div className=" min-h-screen  py-12 pt-36">
         <h1 className=" text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 text-center">
           All Courses({courseData.courses.length})
         </h1>
         <div className="flex flex-wrap justify-evenly">
         {courseData.courses.map((course) => (
             <CardContainer className="inter-var m-3" key={course.id}>
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500  dark:bg-neutral-900/45 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border-2 ">
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500  dark:bg-neutral-900 dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border-2 ">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -58,6 +61,7 @@ const Courses = () => {
         ))}
         </div>
     </div>
+    </AuroraBackground>
   );
 };
 
