@@ -50,7 +50,7 @@ const FeaturedCourses = () => {
                       {course.description}
                     </h1>
                     <Link href={`/coursed/${course.slug}`} className="">
-                      <h1 className=" border rounded-2xl border-white/10 px-3 py-1 transform transition duration-300 bg-clip-text bg-gradient-to-tl from-black via-white to-purple-900 text-transparent hover:-translate-y-1 hover:text-purple-900 font-bold font-mono">
+                      <h1 className=" border rounded-2xl border-white/10 px-3 py-1 transform transition duration-300 bg-clip-text bg-gradient-to-tl from-black via-white to-purple-900 text-transparent hover:-translate-y-1 hover:text-purple-600 font-bold font-mono ">
                         Learn More
                       </h1>
                     </Link>
