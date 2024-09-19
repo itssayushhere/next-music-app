@@ -20,7 +20,7 @@
       "price": 109.99,
       "instructor": "Jane Smith",
       "instructorimg": "/courses/piano-instructor.jpg",
-      "instructorBio": "Jane Smith is an accomplished pianist with a decade of experience teaching piano to students of all ages. She focuses on building a strong foundation in music theory and technique.",
+      "instructorBio": "Jane Smith is an accomplished pianist with a decade of experience teaching piano to students of all ages. he focuses on building a strong foundation in music theory and technique.",
       "isFeatured": false,
       "image": "/courses/piano.jpg"
     },

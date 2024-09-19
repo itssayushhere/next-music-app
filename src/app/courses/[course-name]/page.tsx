@@ -79,7 +79,7 @@ export default function CoursePage({ params }: { params: Params }) {
       </div>
 
       {/* Sign Up Form at the Bottom */}
-      <div className="w-full sm:max-w-[700px] mt-12 p-6 bg-neutral-900 rounded-lg shadow-lg">
+      <div className="w-full sm:max-w-[700px] mt-12 p-6 bg-neutral-900 rounded-lg shadow-lg mb-10">
         <h2 className="font-bold font-mono text-2xl text-purple-300 mb-4 text-center">
           Sign Up for the Course
         </h2>
@@ -113,7 +113,7 @@ export default function CoursePage({ params }: { params: Params }) {
           />
           <button
             type="submit"
-            className="p-3 bg-purple-600 text-white font-bold rounded-lg hover:bg-purple-700 transition-colors duration-300"
+            className="p-3 bg-purple-600 text-white font-bold rounded-lg hover:bg-purple-700 transition-colors duration-300 s"
           >
             Sign Up
           </button>
